@@ -1,0 +1,98 @@
+body {
+	font-family: "Noto Sans", sans-serif;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+header:after {
+	content:"";
+	display: block;
+	clear: both;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+li{
+	list-style-type: none;
+}
+
+
+.logosize {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+.myname {
+	float: left;
+	width: 50%;
+	height: auto;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.keyvisual {
+	position: relative;
+}
+.keyvisual img {
+	width: 100%;
+	height: auto;
+}
+
+.keyvisual h1 {
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	background-color: rgba(255,255,255,0.7);
+	font-size: 16px;
+}
+
+@media screen and (min-width: 768px){
+	.keyvisual h1{
+		font-size: 32px;
+	}
+}
+
+
+.responsive-img {
+	max-width: 450px;
+	height: auto;
+	max-width: 100%;
+}
+
+.works {
+	max-width: 400px;
+	height: 400px;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+.works a{
+	text-decoration: none;
+	color: black;
+}
+
+.semantic-img{
+	height: 200px;
+}
+
+
+.behavior-h2{
+	padding-top: 80px;
+}
+
+@media screen and (min-width: 768px){
+	.works {
+		float: left;
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.works {
+		float: left;
+		width: 32%;
+		margin-right:10px;
+	}
+}
